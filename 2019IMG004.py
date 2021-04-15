@@ -13,8 +13,8 @@ r = requests.get(
 # print(r.text)
 parsed = json.loads(r.text)
 
-with open("password.txt") as f:
-    password = f.read()
+#with open("password.txt") as f:
+    #password = f.read()
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 # print(voices[1].id)
@@ -65,7 +65,7 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('officialakarsh2020@gmail.com', password)
+    server.login('officialakarsh2020@gmail.com', "abviiitm@123")
     server.sendmail('officialakarsh2020@gmail.com', to, content)
     server.close()
 
