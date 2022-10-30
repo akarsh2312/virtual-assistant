@@ -11,7 +11,7 @@ import requests
 r = requests.get(
     "https://newsapi.org/v2/top-headlines?country=in&apiKey=d60d116def2d491eb7299e22014840d3")
 # print(r.text)
-parsed = json.loads(r.text)
+parsed = json.loads(r.text)//this is khandelwaal files
 
 #with open("password.txt") as f:
     #password = f.read()
