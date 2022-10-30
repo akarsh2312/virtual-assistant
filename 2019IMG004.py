@@ -14,6 +14,7 @@ r = requests.get(
 parsed = json.loads(r.text)//this is khandelwaal files
 
 #with open("password.txt") as f:
+dsadasd
     #password = f.read()
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
