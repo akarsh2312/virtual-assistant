@@ -19,7 +19,7 @@ while(i>0)
 		
 		sum=sum+p;
 		i=i/10;
-		p=1;
+		p=2; // changes
 	}
 	if(sum==n)
 	cout<<"It is a Strong Number .";
