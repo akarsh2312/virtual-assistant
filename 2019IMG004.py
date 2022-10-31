@@ -21,7 +21,7 @@ voices = engine.getProperty('voices')
 # print(voices[1].id)
 engine.setProperty('voice', voices[0].id)
 
-
+print("Check Debug")
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
